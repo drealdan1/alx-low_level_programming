@@ -7,7 +7,7 @@
  *
  * Return: Always (Success)
  */
-int positive_or_negative()
+int positive_or_negative(n)
 {
 	int n;
 
@@ -27,5 +27,5 @@ int positive_or_negative()
 		printf("%d is negative\n", n);
 	}
 
-	return (0);
+	return ();
 }
